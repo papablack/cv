@@ -1,0 +1,17 @@
+{
+    "skills": [
+        { "name": "Lorem Framework", "level": "EXPERT" },
+        { "name": "Ipsum Language", "level": "ADVANCED" },
+        { "name": "Dolor Stack", "level": "ADVANCED" },
+        { "name": "Sit Database", "level": "INTERMEDIATE" },
+        { "name": "Amet Cloud", "level": "ADVANCED" },
+        { "name": "Consectetur API", "level": "EXPERT" },
+        { "name": "Adipiscing Platform", "level": "CREATOR" },
+        { "name": "Elit Framework", "level": "ADVANCED" },
+        { "name": "Tempor Suite", "level": "INTERMEDIATE" },
+        { "name": "Incididunt Tools", "level": "BASIC" },
+        { "name": "Labore System", "level": "EXPERT" },
+        { "name": "Magna Technologies", "level": "ADVANCED" },
+        { "name": "Aliqua Engine", "level": "INTERMEDIATE" }
+    ]
+}

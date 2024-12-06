@@ -1,0 +1,16 @@
+{
+    "languages": [
+        {
+            "language": "Lorem",
+            "level": "NATIVE"
+        },
+        {
+            "language": "Ipsum",
+            "level": "FLUENT"
+        },
+        {
+            "language": "Dolor",
+            "level": "INTERMEDIATE"
+        }
+    ]
+}

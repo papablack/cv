@@ -1,0 +1,26 @@
+{
+  "name": "cv-portfolio",
+  "version": "1.0.0",
+  "module": "src/index.tsx",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/server.tsx",
+    "build": "bun build ./src/index.tsx --outdir ./public/dist --minify --target browser --entry-naming [dir]/cv.js"
+  },
+  "dependencies": {
+    "bun": "^1.1.38",
+    "html2pdf.js": "^0.10.2",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "experience": [
+        {
+            "title": "Senior Developer",
+            "company": "Lorem Tech",
+            "period": "2020 - Present",
+            "achievements": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+                "Ut enim ad minim veniam, quis nostrud exercitation"
+            ]
+        },
+        {
+            "title": "Full Stack Developer",
+            "company": "Ipsum Solutions",
+            "period": "2018 - 2020",
+            "achievements": [
+                "Duis aute irure dolor in reprehenderit in voluptate velit",
+                "Excepteur sint occaecat cupidatat non proident",
+                "Consectetur adipiscing elit, sed do eiusmod tempor"
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Dolor Systems",
+            "period": "2016 - 2018",
+            "achievements": [
+                "Ut labore et dolore magna aliqua ut enim ad minim",
+                "Quis nostrud exercitation ullamco laboris nisi ut aliquip"
+            ]
+        }
+    ]
+}

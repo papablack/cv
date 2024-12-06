@@ -1,0 +1,12 @@
+{
+    "education": [
+        {
+            "school": "Lorem Ipsum Technical University",
+            "period": "2010 - 2014"
+        },
+        {
+            "school": "Dolor Sit Academy of Technology",
+            "period": "2012"
+        }
+    ]
+}
