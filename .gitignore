@@ -1,3 +1,4 @@
 node_modules/
 data_source/*.json
 !data_source/*.dist.json
+public/dist/

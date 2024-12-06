@@ -11,7 +11,8 @@ import {
   Star,
   Package,
   Download,
-  Printer
+  Printer, 
+  Github  
 } from 'lucide-react';
 import { cvData } from './data';
 import { SectionTitle, SkillTag } from './components';
@@ -36,6 +37,29 @@ const CV: React.FC = () => {
     <>
       <style>
         {`
+        .project-entry a {
+              font-size: 14px;
+              margin-top: 5px;
+              display: block;
+              color: #0066cc !important;
+              text-decoration: underline;
+          }
+
+          @page {
+            margin: 0;
+            size: A4;
+          }
+
+          footer {
+            text-align: center;
+            margin-top: 15px;
+            color: #FFFFFF;
+            
+            a {
+                color: #0066cc !important;
+            }
+          }
+
           @media print {
             body {
               margin: 0;
@@ -119,21 +143,14 @@ const CV: React.FC = () => {
             }
             .export-buttons {
               display: none !important;
-            }        
+            }   
+              
+            footer {        
+              dispaly: none;
+            }
           }   
 
-          .project-entry a {
-              font-size: 14px;
-              margin-top: 5px;
-              display: block;
-              color: #0066cc !important;
-              text-decoration: underline;
-          }
-
-          @page {
-            margin: 0;
-            size: A4;
-          }
+          
         `}
       </style>
       <div className="min-h-screen bg-black py-10 px-4 sm:px-6 lg:px-8">
@@ -198,6 +215,17 @@ const CV: React.FC = () => {
                       className="hover:text-blue-400 transition-colors"
                     >
                       {cvData.personal.website}
+                    </a>
+                  </div>
+                  <div className="flex items-center text-gray-100">
+                    <Github className="w-5 h-5 mr-2" />
+                    <a 
+                      href={cvData.personal.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-blue-400 transition-colors"
+                    >
+                      {cvData.personal.github}
                     </a>
                   </div>
                 </div>
